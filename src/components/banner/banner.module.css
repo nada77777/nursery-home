@@ -1,0 +1,34 @@
+@value size-big: 24px;
+@value size-medium: 16px;
+@value size-small: 12px;
+
+@value weight-bold: 600;
+@value weight-medium: 500;
+@value weight-thin: 400;
+
+.banner {
+    background-color: antiquewhite;
+
+}
+
+.innerTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.innerTopTitle {
+    font-weight: weight-medium;
+}
+
+.note {}
+
+.viewMore {
+    font-weight: weight-bold;
+}
+
+.innerBottom {}
+
+.innerBottomTitle {
+    font-weight: weight-medium;
+}
